@@ -14,8 +14,6 @@
 
 import dimod
 
-# use the exact solver to find energies for all states. This is only
-# realistic for very small problems.
 exactsolver = dimod.ExactSolver()
 
 Q = {(0, 0): 1, (1, 1): 1, (0, 1): -2}

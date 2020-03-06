@@ -11,11 +11,12 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
 from minorminer import find_embedding
 from dwave.system.samplers import DWaveSampler
 from dwave.system.composites import FixedEmbeddingComposite
 
-# Set up the QUBO. Start with the equations from the slides:
+# Set up the QUBO. Start with the equations:
 # x + y - 2xy -1
 # 2yz - y - z
 # -2zx + z + x - 1

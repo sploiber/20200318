@@ -21,7 +21,6 @@ from pyqubo import Array
 import networkx as nx
 import dwave_networkx as dnx
 import matplotlib
-#matplotlib.use('Qt4Agg', warn=True)
 from matplotlib import pyplot as plt
 
 
